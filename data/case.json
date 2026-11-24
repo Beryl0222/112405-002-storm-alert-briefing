@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "id": "WX-11",
+      "language": "zh",
+      "text": "东堤闸口只在潮位低于一米二后开放，未收到复核前请勿从桥下通行。",
+      "kind": "official-bulletin"
+    },
+    {
+      "id": "WX-12",
+      "language": "en",
+      "text": "North shelter remains available for visitors arriving by ferry until the evening service ends.",
+      "kind": "local-addendum"
+    },
+    {
+      "id": "WX-13",
+      "language": "zh",
+      "text": "邻居说北湾也一直开着。",
+      "kind": "resident-report"
+    }
+  ],
+  "places": [
+    {
+      "id": "S-1",
+      "name": "北湾临时点",
+      "aliases": [
+        "北湾点"
+      ],
+      "access": [
+        "步行",
+        "轮渡"
+      ]
+    },
+    {
+      "id": "S-2",
+      "name": "东堤闸口",
+      "access": [
+        "步行"
+      ]
+    }
+  ],
+  "case_id": "storm-11"
+}
