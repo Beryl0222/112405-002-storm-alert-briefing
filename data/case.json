@@ -17,6 +17,46 @@
       "language": "zh",
       "text": "邻居说北湾也一直开着。",
       "kind": "resident-report"
+    },
+    {
+      "id": "WX-20",
+      "kind": "place-register",
+      "text": "North shelter是北湾临时点S1，不是北湾码头P1；东堤闸口S2连接P1与S1，桥下通道R2另有入口。"
+    },
+    {
+      "id": "WX-21",
+      "kind": "official-bulletin",
+      "text": "11月8日18:00命令：18:30起东桥R3关闭，只有经确认的轮渡F1可送乘客至P1。未确认潮位前不得经R2。"
+    },
+    {
+      "id": "WX-22",
+      "kind": "translation",
+      "text": "草拟译文称All shelters remain open until the tide falls。编辑未复核该适用范围。"
+    },
+    {
+      "id": "WX-23",
+      "kind": "measurement",
+      "text": "18:20潮位1.1米，尚未进行通道安全复核；读数本身不是开放命令。"
+    },
+    {
+      "id": "WX-24",
+      "kind": "local-addendum",
+      "text": "18:40复核确认只开放S2闸口步行道。R2桥下仍封闭；台阶不适用于不能步行的乘客。"
+    },
+    {
+      "id": "WX-25",
+      "kind": "ferry-status",
+      "text": "夜班F1本日19:00末班，轮椅位须值班确认，目前未确认。"
+    },
+    {
+      "id": "WX-26",
+      "kind": "resident-question",
+      "text": "居民从P1码头去S1，不能走台阶，问邻居转来的东桥路线是否仍适用。"
+    },
+    {
+      "id": "WX-27",
+      "kind": "correction",
+      "text": "原WX12中的晚班结束时间19:00误写为20:00，更正仅涉及F1与该条地方补充。"
     }
   ],
   "places": [
@@ -39,5 +79,46 @@
       ]
     }
   ],
-  "case_id": "storm-11"
+  "case_id": "storm-11",
+  "context": {
+    "connections": [
+      {
+        "id": "R2",
+        "from": "P1",
+        "to": "S1",
+        "kind": "桥下通道"
+      },
+      {
+        "id": "R3",
+        "from": "P1",
+        "to": "S1",
+        "kind": "东桥"
+      },
+      {
+        "id": "S2",
+        "from": "P1",
+        "to": "S1",
+        "kind": "闸口步行道，含台阶"
+      }
+    ],
+    "issued_guides": [
+      {
+        "id": "G1",
+        "state": "sent",
+        "text": "18:30后经R3前往S1。",
+        "sources": [
+          "WX-12"
+        ],
+        "audience": "P1旅客"
+      },
+      {
+        "id": "G2",
+        "state": "draft",
+        "text": "轮渡可用至20:00。",
+        "sources": [
+          "WX-12"
+        ]
+      }
+    ]
+  }
 }
