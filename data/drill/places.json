@@ -1,0 +1,46 @@
+{
+  "case_id": "storm-11",
+  "note": "全部为虚构演练资料，不对应真实人员、机构、地点或业务决定。",
+  "places": [
+    {
+      "id": "P-SHELTER-NORTH",
+      "name": "北湾避护中心",
+      "kind": "shelter",
+      "aliases": ["北湾临时点", "北湾点", "North Bay Shelter", "North Haven Shelter"],
+      "access": ["步行", "轮渡", "轮椅"],
+      "description": "市级避护点，含无障碍设施"
+    },
+    {
+      "id": "P-GATE-DONGDI",
+      "name": "东堤闸口",
+      "kind": "gate",
+      "aliases": ["东堤通道", "East Embankment Gate"],
+      "access": ["步行"],
+      "description": "只在潮位低于一米二后开放的通道闸口"
+    },
+    {
+      "id": "P-GATE-LINGANG",
+      "name": "临港大桥",
+      "kind": "gate",
+      "aliases": ["临港桥", "Lingang Bridge"],
+      "access": ["步行", "轮椅"],
+      "description": "连接老城与北湾的车行/人行桥"
+    },
+    {
+      "id": "P-GATE-UNDERPASS",
+      "name": "海西路涵洞",
+      "kind": "gate",
+      "aliases": ["海西路下穿通道", "Haixi Underpass"],
+      "access": ["步行"],
+      "description": "下穿通道，轮椅无法使用"
+    },
+    {
+      "id": "P-TERMINAL-NIGHT",
+      "name": "夜班轮渡码头",
+      "kind": "terminal",
+      "aliases": ["轮渡码头", "Night Ferry Terminal"],
+      "access": ["轮渡"],
+      "description": "夜班渡船乘客登船点"
+    }
+  ]
+}

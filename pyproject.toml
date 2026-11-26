@@ -1,6 +1,12 @@
 [project]
-name = "case-workbench"
-version = "0.1.0"
-description = "合成文本资料工作区"
+name = "storm-nlp-workbench"
+version = "0.2.0"
+description = "沿海值班中心多语种风暴通告 NLP 演练工具（无第三方依赖）"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+storm-nlp = "storm_nlp.cli:main"
+
+[tool.unittest]
+start-dir = "tests"

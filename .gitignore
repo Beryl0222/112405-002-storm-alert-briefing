@@ -10,3 +10,8 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行期数据库与导出
+/run/
+*.sqlite
+*.sqlite3

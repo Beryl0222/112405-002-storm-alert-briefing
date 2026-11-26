@@ -1,0 +1,48 @@
+{
+  "note": "虚构演练通告序列，按 received_at 顺序入库；所有名称与安排均不对应真实对象。",
+  "notices": [
+    {
+      "id": "N-01",
+      "language": "zh",
+      "kind": "official-bulletin",
+      "received_at": "14:00",
+      "text": "市应急局通告：北湾避护中心自11月26日18:00起开放，接收老城片区居民。东堤闸口仅在潮位低于一米二后开放，开放至潮位回落；该时间条件只适用于东堤闸口这一处通道。请轮椅使用者不要走海西路涵洞，该通道无法通行轮椅，请经临港大桥前往北湾避护中心。建议夜班渡船乘客前往北湾避护中心，轮渡码头末班船时间为23:00。"
+    },
+    {
+      "id": "N-01-MT",
+      "language": "en",
+      "kind": "machine-translation",
+      "received_at": "14:05",
+      "translation_of": "N-01",
+      "text": "Municipal Emergency Bureau notice: North Bay Shelter will open at 18:00 on Nov 26 to receive residents of the old town. All shelters remain open until the tide recedes. Wheelchair users should use the Haixi Underpass to reach North Bay Shelter. Night ferry passengers are advised to head to North Bay Shelter, and the last boat is at 23:00."
+    },
+    {
+      "id": "N-02",
+      "language": "zh",
+      "kind": "local-addendum",
+      "received_at": "15:30",
+      "text": "临港大桥即刻起封闭，封闭命令已经值班长确认；所有经临港大桥前往北湾避护中心的路线停止使用。夜班轮渡码头至北湾避护中心航线保持运营，末班船仍为23:00。"
+    },
+    {
+      "id": "N-03",
+      "language": "zh",
+      "kind": "resident-report",
+      "received_at": "16:10",
+      "text": "邻居说海西路涵洞也一直开着，可以走。"
+    },
+    {
+      "id": "N-04",
+      "language": "zh",
+      "kind": "official-bulletin",
+      "received_at": "17:00",
+      "text": "更正通告：夜班轮渡码头末班船时间应为22:00（原23:00），此前按23:00编排的接船指引全部以本通告为准。"
+    },
+    {
+      "id": "N-05",
+      "language": "zh",
+      "kind": "official-bulletin",
+      "received_at": "17:20",
+      "text": "现确认：海西路涵洞即刻起封闭，此前居民关于该涵洞仍可通行的说法不实。"
+    }
+  ]
+}

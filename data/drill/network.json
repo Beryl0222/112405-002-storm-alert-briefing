@@ -1,0 +1,80 @@
+{
+  "note": "虚构演练路网：J- 开头为路口节点，gate 字段绑定受控通道（桥/涵洞）。",
+  "edges": [
+    {
+      "id": "E-LINGANG",
+      "a": "J-OLDTOWN",
+      "b": "J-NORTHBAY",
+      "label": "临港大桥主路",
+      "modes": ["walk", "wheelchair"],
+      "gate": "P-GATE-LINGANG",
+      "minutes": 12
+    },
+    {
+      "id": "E-SURFACE",
+      "a": "J-OLDTOWN",
+      "b": "J-NORTHBAY",
+      "label": "滨海平行地面路（无台阶，轮椅可用）",
+      "modes": ["walk", "wheelchair"],
+      "minutes": 18
+    },
+    {
+      "id": "E-UNDERPASS",
+      "a": "J-OLDTOWN",
+      "b": "J-HAIXI",
+      "label": "海西路涵洞",
+      "modes": ["walk"],
+      "gate": "P-GATE-UNDERPASS",
+      "minutes": 8
+    },
+    {
+      "id": "E-HAIXI-RAMP",
+      "a": "J-HAIXI",
+      "b": "J-NORTHBAY",
+      "label": "海西缓坡路（无障碍）",
+      "modes": ["walk", "wheelchair"],
+      "minutes": 10
+    },
+    {
+      "id": "E-BAY-SHELTER",
+      "a": "J-NORTHBAY",
+      "b": "P-SHELTER-NORTH",
+      "label": "北湾中心接入路",
+      "modes": ["walk", "wheelchair", "ferry"],
+      "minutes": 5
+    },
+    {
+      "id": "E-EMBANKMENT",
+      "a": "J-HAIXI",
+      "b": "P-GATE-DONGDI",
+      "label": "东堤闸口通道",
+      "modes": ["walk"],
+      "gate": "P-GATE-DONGDI",
+      "minutes": 7
+    },
+    {
+      "id": "E-FERRY",
+      "a": "P-TERMINAL-NIGHT",
+      "b": "P-SHELTER-NORTH",
+      "label": "夜班轮渡航线",
+      "modes": ["ferry"],
+      "minutes": 20
+    },
+    {
+      "id": "E-OLDTOWN-TERMINAL",
+      "a": "J-OLDTOWN",
+      "b": "P-TERMINAL-NIGHT",
+      "label": "老城至轮渡码头接驳路",
+      "modes": ["walk", "wheelchair", "ferry"],
+      "minutes": 6
+    },
+    {
+      "id": "E-SEAWALL",
+      "a": "J-NORTHBAY",
+      "b": "P-GATE-DONGDI",
+      "label": "北湾海堤步道",
+      "modes": ["walk"],
+      "minutes": 9
+    }
+  ]
+}
